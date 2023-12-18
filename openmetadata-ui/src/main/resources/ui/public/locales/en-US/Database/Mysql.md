@@ -1,9 +1,8 @@
 # MySQL
 
-In this section, we provide guides and references to use the MySQL connector.
-
-## Requirements
-To extract metadata the user used in the connection needs to have access to the `INFORMATION_SCHEMA`. By default, a user can see only the rows in the `INFORMATION_SCHEMA` that correspond to objects for which the user has the proper access privileges.
+در این بخش، راهنماها و مراجع برای استفاده از اتصال‌دهنده MySQL ارائه شده‌اند.
+## نیازمندی‌ها
+برای استخراج اطلاعات فراداده کاربری که در اتصال استفاده می‌شود باید به `INFORMATION_SCHEMA` دسترسی داشته باشد. به طور پیش‌فرض، یک کاربر فقط می‌تواند ردیف‌های `INFORMATION_SCHEMA` را مشاهده کند که متناظر با اشیاءی است که کاربر دسترسی لازم برای آنها را دارد.
 
 ```SQL
 -- Create user. If <hostName> is ommited, defaults to '%'
@@ -21,7 +20,7 @@ GRANT SELECT ON world.hello TO '<username>';
 ```
 
 $$note
-OpenMetadata supports MySQL version `8.0.0` and up. 
+سامانه از نسخه 8.0.0 و بالاتر MySQL پشتیبانی می‌کند .
 $$
 
 ### Profiler & Data Quality
