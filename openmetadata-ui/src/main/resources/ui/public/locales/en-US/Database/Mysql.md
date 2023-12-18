@@ -20,7 +20,7 @@ GRANT SELECT ON world.hello TO '<username>';
 ```
 
 $$note
-سامانه از نسخه 8.0.0 و بالاتر MySQL پشتیبانی می‌کند .
+سامانه از MySQL نسخه ۸.۰.۰ و بالاتر پشتیبانی می‌کند.
 $$
 
 ### Profiler & Data Quality
